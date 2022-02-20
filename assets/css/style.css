@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Roboto+Serif:wght@200;300;400;700;900&display=swap');
+
+* {
+  transition: all 2s;
+}
+
+body {
+  background: #8d99ae;
+  font-family: Inter;
+  color: #000;
+} 
+
+h2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+header {
+  display: flex;
+  padding: 150px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  background: #f8edeb;
+}
+
+header > img {
+  width: 400px;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+#omicron{
+  width:25%;
+  position: absolute;
+  left: 10px;
+  opacity: .2;
+}
+
+.author {
+  display: flex;
+  justify-content: left;
+  margin: 40px ;
+  text-align: justify;
+}
+
+.author-info {
+  align-self: center;
+  margin-left: 50px;
+}
+
+.author img {
+  width: 100px;
+  border-radius: 50px;
+}
+p{
+  font-family: inter;
+  font-weight: 400;
+}
+
+h1 {
+  padding: 50px;
+  font-weight: 700;
+  font-size: 56px;
+}
+
+/* Main */
+
+
+
+.text {
+  padding: 350px;
+}
+
+main p {
+  font-size: 27px;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 75%;
+  text-align: justify;
+}
+
+.presentation::first-letter{
+  font-size: 40px;
+}
+
+.whitebg {
+  background: #f8edeb;
+}
+
+.whitebg h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+
+.solution img{
+  float: right;
+  width: 25%;
+  border-radius: 200px;
+}
+
+.handle h2,
+.demage-group h2,
+.solution h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.handle h2::before,
+.demage-group h2::before{
+  content: '';
+  background-color: rgba(168, 70, 70, 0.75);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+}
+
+footer {
+  background: #002642;
+  padding: 50px;
+}
+
+.span-footer{
+  color: white;
+}
+
+.container-text{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container-text a {
+  width: 50%;
+  margin: 0 auto;
+  color:  rgb(228, 68, 68);
+}
+
+.container-text a:hover {
+  transition: ease-in-out .5s;
+  color:#002642;
+}
